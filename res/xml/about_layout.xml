@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- AICP logo -->
-    <PreferenceScreen android:key="aicp_logo"
-        android:enabled="false"
+    <PreferenceScreen 
+	    android:key="aicp_logo"
         android:layout="@layout/about_logo" />
 
     <Preference
@@ -16,10 +16,4 @@
     <Preference
         android:key="aicp_gerrit"
         android:title="@string/aicp_gerrit_title" />
-
-    <Preference
-        android:key="aicp_changelog"
-        android:title="@string/changelog_title"
-        android:summary="@string/changelog_title_summary"/>
-
 </PreferenceScreen>

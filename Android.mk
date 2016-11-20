@@ -30,7 +30,7 @@ res_dirs := res $(appcompat_dir) $(cardview_dir) $(recyclerview_dir) $(design_di
 # Build APK
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := AicpExtras
+LOCAL_PACKAGE_NAME := RealDragons
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROGUARD_ENABLED := disabled
@@ -38,6 +38,8 @@ LOCAL_PROGUARD_ENABLED := disabled
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v7-appcompat \
+	android-support-v7-preference \
+	android-support-v14-preference \
     android-support-v7-recyclerview \
     android-support-v7-cardview \
     android-support-v13 \
@@ -49,7 +51,7 @@ LOCAL_JAVA_LIBRARIES := org.cyanogenmod.hardware
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 LOCAL_AAPT_FLAGS := --auto-add-overlay
-LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.appcompat:android.support.v7.cardview:android.support.v7.recyclerview:android.support.design
+LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.preference:android.support.v14.preference:android.support.v17.preference:android.support.v7.appcompat:android.support.v7.cardview:android.support.v7.recyclerview:android.support.design
 
 include $(BUILD_PACKAGE)
 

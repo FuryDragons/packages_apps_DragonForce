@@ -26,12 +26,10 @@ public class AboutFragment extends Fragment {
         private String PREF_GCOMMUNITY = "gplus";
         private String PREF_AICP_DOWNLOADS = "aicp_downloads";
         private String PREF_AICP_GERRIT = "aicp_gerrit";
-        private String PREF_AICP_CHANGELOG = "aicp_changelog";
 
         private Preference mGcommunity;
         private Preference mAicpDownloads;
         private Preference mAicpGerrit;
-        private Preference mAicpChangeLog;
         public SettingsPreferenceFragment() {
         }
 
@@ -50,7 +48,6 @@ public class AboutFragment extends Fragment {
             mGcommunity = prefSet.findPreference(PREF_GCOMMUNITY);
             mAicpDownloads = prefSet.findPreference(PREF_AICP_DOWNLOADS);
             mAicpGerrit = prefSet.findPreference(PREF_AICP_GERRIT);
-            mAicpChangeLog = prefSet.findPreference(PREF_AICP_CHANGELOG);
 
         }
 
@@ -71,9 +68,6 @@ public class AboutFragment extends Fragment {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
-            } else if (preference == mAicpChangeLog) {
-                Intent intent = new Intent(getActivity(), ChangeLogActivity.class);
-                getActivity().startActivity(intent);
             } else {
                 return super.onPreferenceTreeClick(preferenceScreen, preference);
             }
