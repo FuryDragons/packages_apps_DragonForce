@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Aicp Extras</string>
+    <string name="app_name">FURY Force</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="first_layout_title">Placeholder for various shit\nand naked chicks!!!</string>		
     <string name="second_layout_title">Second layout</string>		
     <string name="third_layout_title">Third Layout</string>
-    <string name="aicp_extras_title">AICP Extras</string>
-    <string name="pun_title">One rom to rule them all</string>
-    <string name="about_title">About</string>
+    <string name="fury_force_title">FURY Force</string>
+    <string name="pun_title">Fury Of A Dragon</string>
+    <string name="about_title">About Us</string>
     <string name="other_title">Other</string>
-    <string name="g_community">G+ comunity</string>
+    <string name="fury_website">Our Website</string>
     <string name="logo">logo</string>
-    <string name="aicp_downloads_title">Downloads</string>
-    <string name="aicp_gerrit_title">Gerrit</string>
+    <string name="fury_downloads_title">Downloads</string>
+    <string name="fury_source_github">Furysource</string>
 </resources>

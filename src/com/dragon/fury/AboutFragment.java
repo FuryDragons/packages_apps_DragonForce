@@ -1,4 +1,4 @@
-package com.lordclockan.aicpextras;
+package com.dragon.fury;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -23,13 +23,13 @@ public class AboutFragment extends Fragment {
 
     public static class SettingsPreferenceFragment extends PreferenceFragment {
 
-        private String PREF_GCOMMUNITY = "gplus";
-        private String PREF_AICP_DOWNLOADS = "aicp_downloads";
-        private String PREF_AICP_GERRIT = "aicp_gerrit";
+        private String PREF_WEBSITE = "website";
+        private String PREF_FURY_DOWNLOADS = "fury_downloads";
+        private String PREF_FURY_SOURCE = "fury_source";
 
-        private Preference mGcommunity;
-        private Preference mAicpDownloads;
-        private Preference mAicpGerrit;
+        private Preference mWebsite;
+        private Preference mFuryDownloads;
+        private Preference mFurySource;
         public SettingsPreferenceFragment() {
         }
 
@@ -45,26 +45,26 @@ public class AboutFragment extends Fragment {
 
             final ContentResolver resolver = getActivity().getContentResolver();
 
-            mGcommunity = prefSet.findPreference(PREF_GCOMMUNITY);
-            mAicpDownloads = prefSet.findPreference(PREF_AICP_DOWNLOADS);
-            mAicpGerrit = prefSet.findPreference(PREF_AICP_GERRIT);
+            mWebsite = prefSet.findPreference(PREF_WEBSITE);
+            mFuryDownloads = prefSet.findPreference(PREF_FURY_DOWNLOADS);
+            mFurySource = prefSet.findPreference(PREF_FURY_SOURCE);
 
         }
 
         @Override
         public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-            if (preference == mGcommunity) {
-                String url = "https://plus.google.com/communities/101008638920580274588";
+            if (preference == mWebsite) {
+                String url = "https://furydragons.github.io/";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
-            } else if (preference == mAicpDownloads) {
-                String url = "http://dwnld.aicp-rom.com";
+            } else if (preference == mFuryDownloads) {
+                String url = "https://furydragons.github.io/downloads.html";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
-            } else if (preference == mAicpGerrit) {
-                String url = "http://gerrit.aicp-rom.com/#/q/status:open";
+            } else if (preference == mFurySource) {
+                String url = "https://github.com/FuryDragons";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);

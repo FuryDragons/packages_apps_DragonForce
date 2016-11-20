@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lordclockan.aicpextras.preferences;
+package com.dragon.fury.preferences;
 
 
 import android.content.Context;

@@ -19,14 +19,14 @@
         android:contentDescription="@string/logo"
         android:paddingRight="@dimen/nav_header_vertical_spacing"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@drawable/ic_aicp" />
+        android:src="@drawable/ic_fds" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView"
         android:layout_toEndOf="@+id/imageView"
-        android:text="@string/aicp_extras_title"
+        android:text="@string/fury_force_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView

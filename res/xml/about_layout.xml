@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- AICP logo -->
+    <!-- FuryDragons logo -->
     <PreferenceScreen 
-	    android:key="aicp_logo"
-        android:layout="@layout/about_logo" />
+	    android:key="fds_logo"
+        android:layout="@layout/fds_logo" />
 
     <Preference
-        android:key="gplus"
-        android:title="@string/g_community" />
+        android:key="website"
+        android:title="@string/fury_website" />
 
     <Preference
-        android:key="aicp_downloads"
-        android:title="@string/aicp_downloads_title" />
+        android:key="fury_downloads"
+        android:title="@string/fury_downloads_title" />
 
     <Preference
-        android:key="aicp_gerrit"
-        android:title="@string/aicp_gerrit_title" />
+        android:key="fury_source"
+        android:title="@string/fury_source_github" />
 </PreferenceScreen>
