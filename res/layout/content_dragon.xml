@@ -13,8 +13,4 @@
     tools:context="dragons.nyks45.furyforce.DragonActivity"
     tools:showIn="@layout/app_bar_dragon">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/fury_first" />
 </RelativeLayout>
