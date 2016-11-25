@@ -4,41 +4,114 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-	
-	<!-- FURY DRAGONS -->
-	    
-	<string name="fury_force">Fury Force</string>
-	<string name="fury_slogan">Fury Of A Dragon</string>
+
+    <!-- FURY DRAGONS -->
+
+    <string name="fury_force">Fury Force</string>
+    <string name="fury_slogan">Fury Of A Dragon</string>
     <string name="fury_first">First Time</string>
     <string name="furydragons_settings_header">Additional Settings</string>
     <string name="furydragons_settings_title">Fury Dragons Settings</string>
     <string name="furydragons_ultimate_settings">Fury Dragons Settings</string>
-	<string name="furydragons_about_rom">About FuryDragons Rom</string>
-	<string name="furydragons_about_us">About Us</string>
-	<string name="github">FuryDragons Rom Source</string>
+    <string name="furydragons_about_rom">About FuryDragons Rom</string>
+    <string name="furydragons_about_us">About Us</string>
+    <string name="github">FuryDragons Rom Source</string>
     <string name="github_summary">Visit Our Github To See Newest Changes</string>
     <string name="furydragons_downloads_title">Get FuryDragons Rom</string>
     <string name="furydragons_downloads_summary">Click Here To Get Latest FuryDragonsRom</string>
     <string name="furydragons_website_title">FuryDragons Official Website</string>
     <string name="website_summary">Visit Our Website For Learning Latest Changes</string>
-	<string name="about_rom">Everything You Need To Know About Rom</string>
+    <string name="about_rom">Everything You Need To Know About Rom</string>
     <string name="about_us">Everything You Need To Know About Us</string>
-	<string name="lead_developers">Lead Developers</string>
-	<string name="nyks">Hakan Albayrak(Nyks45)</string>
-	<string name="muratrog">Murat Binboga(MuratRog)</string>
-	<string name="user_github">Github Profile</string>
-	<string name="user_github_summary">Click Here If You Want To See My Github Profile</string>
-	<string name="user_facebook">Facebook Profile</string>
-	<string name="user_facebook_summary">Click Here If You Want To See My Facebook Profile</string>
-	<string name="user_xda">XDA Pofile</string>
-	<string name="user_xda_summary">Click Here If You Want To See My XDA Profile</string>
-	<string name="user_telegram">Telegram Account</string>
-	<string name="user_telegram_summary">Click Here If You Want To Ask Or PM To Me</string>
-	<string name="status_bar_fds_logo_position">StatusBar FuryDragons Logo Position</string>
-	<string name="status_bar_fds_logo_title">StatusBar FuryDragons Logo </string>
-	<string name="status_bar_fds_logo_summary">FuryDragons Logo In Statusbar</string>
-	<string name="status_bar_logo_position_right">Right</string>
-	<string name="status_bar_logo_position_left">Left</string>
-	<string name="headset">Headset</string>
+    <string name="lead_developers">Lead Developers</string>
+    <string name="nyks">Hakan Albayrak(Nyks45)</string>
+    <string name="muratrog">Murat Binboga(MuratRog)</string>
+    <string name="user_github">Github Profile</string>
+    <string name="user_github_summary">Click Here If You Want To See My Github Profile</string>
+    <string name="user_facebook">Facebook Profile</string>
+    <string name="user_facebook_summary">Click Here If You Want To See My Facebook Profile</string>
+    <string name="user_xda">XDA Pofile</string>
+    <string name="user_xda_summary">Click Here If You Want To See My XDA Profile</string>
+    <string name="user_telegram">Telegram Account</string>
+    <string name="user_telegram_summary">Click Here If You Want To Ask Or PM To Me</string>
+    <string name="status_bar_fds_logo_position">StatusBar FuryDragons Logo Position</string>
+    <string name="status_bar_fds_logo_title">StatusBar FuryDragons Logo </string>
+    <string name="status_bar_fds_logo_summary">FuryDragons Logo In Statusbar</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
+    <string name="headset">Headset</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
 
 </resources>

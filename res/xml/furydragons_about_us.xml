@@ -36,7 +36,9 @@
 	
 	<PreferenceScreen android:key="user_facebook"
         android:title="@string/user_facebook"
-        android:summary="@string/user_facebook_summary">
+        android:summary="@string/user_facebook_summary"
+		android:orderingFromXml="false"
+		android:persistent="false">
         <intent android:action="android.intent.action.VIEW"
             android:data="https://www.facebook.com/Nyks45" />
 	</PreferenceScreen>
