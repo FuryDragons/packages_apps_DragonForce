@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:title="About Us"
-        android:checkable="true">
+    <item android:title="Customizations">
+        <menu>
+            <item
+                android:id="@+id/statusbar"
+                android:icon="@drawable/ic_menu_statusbar"
+                android:title="StatusBar" />
+        </menu>
+    </item>
+    <item android:title="About Us">
         <menu>
             <item
                 android:id="@+id/nav_about"

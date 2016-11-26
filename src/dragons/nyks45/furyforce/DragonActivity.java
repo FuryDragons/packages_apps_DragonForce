@@ -94,6 +94,9 @@ public class DragonActivity extends AppCompatActivity
         Class fragmentClass;
 
         switch (id) {
+			case R.id.statusbar:
+                fragmentClass = DragonsStatusBar.class;
+                break;
             case R.id.nav_about:
                 fragmentClass = AboutDragons.class;
                 break;
